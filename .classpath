@@ -19,5 +19,8 @@
 	<classpathentry kind="lib" path="E:/JAVA/SELE/SELE-JARS/EMAIL JAR/javax.activation.jar"/>
 	<classpathentry kind="lib" path="E:/JAVA/SELE/SELE-JARS/EMAIL JAR/java-mail-1.4.4.jar"/>
 	<classpathentry kind="lib" path="C:/Documents and Settings/mohammed.rafiq/My Documents/Downloads/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="jar/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="jar/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="/AnantDemo/selenium-server-standalone-2.37.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
