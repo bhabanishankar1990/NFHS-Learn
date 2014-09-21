@@ -441,6 +441,7 @@ public class Xls_Reader
 	   // System.out.println(xls.isSheetExists(System.getProperty("user.dir")+"\\src\\test\\resources","Registration", "Registration_Case1"));
 	    //System.out.println(xls.getNumberOfRows(System.getProperty("user.dir")+"\\src\\test\\resources","Registration", "Registration_Case1"));
 	      //System.out.println(xls.getNumberOfCols(System.getProperty("user.dir")+"\\src\\test\\resources","Registration", "Registration_Case1"));
+	        System.out.println(xls.getRowNumByColName(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Forgot Password","Test Cases","Forgot_Password2"));
 	}
 
 }

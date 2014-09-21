@@ -1,4 +1,4 @@
-package com.NFHS.TestSuites.RegistrationSuite;
+package com.NFHS.TestSuites.ForgotPasswordSuite;
 
 import java.io.File;
 import java.io.IOException;
@@ -35,7 +35,7 @@ public class TestSuiteBase extends TestBase
 	{
 		initialize();
 		APP_LOGS.info("----Checking run mode of suite----");
-		if(!TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Suite","Test Suite","Registration"))
+		if(!TestUtil.isSuiteRunnable(System.getProperty("user.dir")+"\\src\\com\\NFHS\\xls","Suite","Test Suite","Forgot Password"))
 			throw new SkipException("Runmode has set to no for given suite");		
 	    //APP_LOGS.info("----Suite is executable---");
 	}
@@ -55,7 +55,8 @@ public class TestSuiteBase extends TestBase
 		}
 		else if(browser.equalsIgnoreCase("CHROME"))
 		{
-			 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\jar\\chromedriver.exe");
+
+		      System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\jar\\chromedriver.exe");
 		      ChromeOptions options=new ChromeOptions();
 		      options.addArguments("--test-type");
 	            driver=new ChromeDriver(options);
