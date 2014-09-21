@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suiteB]">
+  <listeners>
+    <listener class-name="com.Framework.listener.TestListenerAdapter"/>
+  </listeners>
+  <test name="Testcase_B1(failed)">
+    <classes>
+      <class name="com.Framework.suiteB.Testcase_B1">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="test1"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B1 -->
+      <class name="com.Framework.suiteB.Testcase_B2">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B2 -->
+      <class name="com.Framework.suiteB.Testcase_B3">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isSuiteSkipped"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B3 -->
+    </classes>
+  </test> <!-- Testcase_B1(failed) -->
+  <test name="Testcase_B2(failed)">
+    <classes>
+      <class name="com.Framework.suiteB.Testcase_B1">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B1 -->
+      <class name="com.Framework.suiteB.Testcase_B3">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isSuiteSkipped"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B3 -->
+      <class name="com.Framework.suiteB.Testcase_B2">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="test1"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B2 -->
+    </classes>
+  </test> <!-- Testcase_B2(failed) -->
+  <test name="Testcase_B3(failed)">
+    <classes>
+      <class name="com.Framework.suiteB.Testcase_B1">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B1 -->
+      <class name="com.Framework.suiteB.Testcase_B2">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B2 -->
+      <class name="com.Framework.suiteB.Testcase_B3">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="test1"/>
+          <include name="reporter"/>
+          <include name="isSuiteSkipped"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.Framework.suiteB.Testcase_B3 -->
+    </classes>
+  </test> <!-- Testcase_B3(failed) -->
+</suite> <!-- Failed suite [suiteB] -->

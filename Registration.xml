@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Registration" verbose="3">	
+ 
+
+	<test name="Registration_Account">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup"/>
+			</classes>
+	</test>
+	<test name="Registration_Account1">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1"/>
+			</classes>
+	</test>
+	<test name="Registration_Account2">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2"/>
+			</classes>
+	</test>
+	
+	<test name="Registration_Account3">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3"/>
+			</classes>
+	</test>
+	
+	<test name="Registration_Account4">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4"/>
+			</classes>
+	</test>
+	
+	<test name="Registration_Account5">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5"/>
+			</classes>
+	</test>
+	
+	<test name="Registration_Account6">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6"/>
+			</classes>
+	</test>
+</suite>
+
+
+
+

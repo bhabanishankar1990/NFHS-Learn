@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Registration]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.NFHS.listener.TestListenerAdapter"/>
+  </listeners>
+  <test name="Registration_Account(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+          <include name="Registration_of_New_User" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+          <include name="reportTestCaseResult"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+          <include name="isTestSkipped"/>
+          <include name="reportTestCaseResult"/>
+          <include name="launch_Browser"/>
+          <include name="reportSuiteResult"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1">
+        <methods>
+          <include name="isTestSkipped"/>
+          <include name="launch_Browser"/>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4">
+        <methods>
+          <include name="reportTestCaseResult"/>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+          <include name="reporter"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5">
+        <methods>
+          <include name="reporter"/>
+          <include name="reportTestCaseResult"/>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5 -->
+    </classes>
+  </test> <!-- Registration_Account(failed) -->
+</suite> <!-- Failed suite [Registration] -->

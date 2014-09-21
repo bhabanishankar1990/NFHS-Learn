@@ -1,0 +1,8 @@
+<suite name="Core-Suite">
+<listeners>
+	<listener class-name="com.NFHS.listener.TestListenerAdapter"/>
+</listeners>
+	<suite-files>
+		<suite-file path="./Registration.xml" />
+	</suite-files>
+</suite>

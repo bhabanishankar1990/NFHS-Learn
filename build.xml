@@ -1,0 +1,83 @@
+<project name="Linde_Au" default="sendMail" basedir=".">
+	
+	<property name="project.dir" value="${basedir}"/>
+	<property name="build.dir" value="${basedir}/build"/>
+	<property name="jar.dir" value="${basedir}/jar"/>
+	<property name="src.dir" value="${basedir}/src"/>
+	<property name="ng.result" value="test-output"/>
+	
+	<target name="setClassPath">
+    <path id="classpath_jars">
+    <pathelement path="${basedir}/"/>	
+    <fileset dir="${jar.dir}">
+    <include name="*.jar"/>
+    </fileset>
+    </path>
+		
+		
+	<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+	
+	<target name="loadTestNG" depends="setClassPath" >
+	<taskdef resource="testngtasks" classpath="${test.classpath}"/>
+	</target>
+	
+	<target name="clean">
+	<echo message="deleting existing build directory"/>
+	<delete dir="${build.dir}"/>
+	</target>
+	
+	<target name="init" depends="clean,setClassPath">
+	<mkdir dir="${build.dir}"/>
+	</target>
+	
+	
+	<target name="compile" depends="clean,init,setClassPath,loadTestNG">
+	<echo message=""/>
+	<echo message="compiling………."/>
+	<javac
+	destdir="${build.dir}"
+	srcdir="${src.dir}"
+	includeantruntime="false"
+	classpath="${test.classpath}"/>
+	</target>
+	
+	<target name="run" depends="compile">
+	<testng classpath="${test.classpath}:${build.dir}">
+	<xmlfileset dir="${basedir}" includes="testng.xml"/>
+	</testng>
+	</target>
+	
+	<target name="makexsltreports" depends="run">
+	<delete dir="${project.dir}/XSLTReports/output">
+	</delete>
+	<mkdir dir="${project.dir}/XSLTReports/output"/>
+
+	<xslt in="${ng.result}/testng-results.xml" style="src/com/NFHS/xslt/testng-results.xsl"
+	out="${project.dir}/XSLTReports/output/index.html" classpathref="classpath_jars" processor="SaxonLiaison">
+	<param name="testNgXslt.outputDir" expression="${project.dir}/XSLTReports/output/"/>
+	<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+	<param expression="true" name="testNgXslt.sortTestCaseLinks" />
+	<param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter"/>
+	</xslt>
+	</target>
+	
+	  <target name="sendMail" depends="makexsltreports" >
+		        <zip destfile="${basedir}/XSLTReports/output.zip" basedir="${basedir}/XSLTReports/output"/>
+		        <mail mailhost="smtp.gmail.com" mailport="465" subject=" Build Report" ssl="true" user="bhabani53@gmail.com" password="Sailabala@123">
+		            <from address="bhabani53@gmail.com"/>
+		            <to address="bhabani@weboniselab.com"/>
+		            <message>The build has finished. A detailed report of this build is attached</message>
+		            <attachments>
+		                <fileset dir="XSLTReports">
+		                    <include name="**/*.zip"/>
+		                </fileset>
+		            </attachments>
+		        </mail>
+		    </target>
+
+ 
+	
+	
+</project>
+	

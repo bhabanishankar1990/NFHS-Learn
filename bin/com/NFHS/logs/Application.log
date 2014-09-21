@@ -1,0 +1,22 @@
+09/09/2014 14:22:42 rootLogger ----Checking run mode of suite----
+09/09/2014 14:22:44 rootLogger ----Checking the Runmode of :Registration_Of_Existing_User----
+09/09/2014 14:22:45 rootLogger ----Test is excuteable----
+09/09/2014 14:22:49 rootLogger ----Launching Web Browser----
+09/09/2014 14:23:12 rootLogger ----Checking Runmode of Testdata:Registration_Of_Existing_User----
+09/09/2014 14:23:12 rootLogger ----Executing Testcase---- :Registration_Of_Existing_User----
+09/09/2014 14:25:54 rootLogger ---Closing Web browser---
+09/09/2014 14:25:54 rootLogger ----Launching Web Browser----
+09/09/2014 14:26:03 rootLogger ----Checking Runmode of Testdata:Registration_Of_Existing_User----
+09/09/2014 14:26:03 rootLogger ---Closing Web browser---
+09/09/2014 14:26:04 rootLogger ----Launching Web Browser----
+09/09/2014 14:26:13 rootLogger ----Checking Runmode of Testdata:Registration_Of_Existing_User----
+09/09/2014 14:26:13 rootLogger ---Closing Web browser---
+09/09/2014 14:26:14 rootLogger ----Launching Web Browser----
+09/09/2014 14:26:23 rootLogger ----Checking Runmode of Testdata:Registration_Of_Existing_User----
+09/09/2014 14:26:23 rootLogger ---Closing Web browser---
+09/09/2014 14:26:24 rootLogger ----Checking the Runmode of :Registration_Of_New_User----
+09/09/2014 14:26:24 rootLogger ----Test is excuteable----
+09/09/2014 14:26:26 rootLogger ----Launching Web Browser----
+09/09/2014 14:26:29 rootLogger ----Checking Runmode of Testdata:Registration_Of_New_User----
+09/09/2014 14:26:29 rootLogger ----Executing Testcase---- :Registration_Of_New_User----
+09/09/2014 14:26:58 rootLogger ---Closing Web browser---
