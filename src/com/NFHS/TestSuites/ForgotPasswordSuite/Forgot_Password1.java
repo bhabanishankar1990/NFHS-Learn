@@ -69,22 +69,32 @@ public class Forgot_Password1 extends TestSuiteBase
 		APP_LOGS.info("----Executing Testcase---- :"+this.getClass().getSimpleName()+"----");
 	         
 	         homepage=new HomePage(driver);
-	      /*try
-	          {*/
+	      try
+	          {
 	               forgotpassword=homepage.forgotPasswordLinkClick();
 	               String forgottext=forgotpassword.forgotPasswordText();
 	               Assert.assertEquals(forgottext,"Forgot Your Password");
 	          
-	         //}
-	       /* catch(Throwable t)
+	         }
+	       catch(Throwable t)
 	          {
 	        	  fail=true;
 	        	 ErrorUtil.addVerificationFailure(t); 
-	          }*/
+	          }
 	                  
-	          
-	 		
-	 			
+	               try
+	 	          {
+	 		      
+	                 boolean emailaddress=forgotpassword.emailAddressField();
+	                 Assert.assertEquals(emailaddress,true);
+	               
+	               
+	               }
+	    	       catch(Throwable t)
+	    	          {
+	    	        	  fail=true;
+	    	        	 ErrorUtil.addVerificationFailure(t); 
+	    	          }
 	
 	}	
 	@AfterMethod

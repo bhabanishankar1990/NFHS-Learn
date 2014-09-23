@@ -7,15 +7,67 @@
     <classes>
       <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1">
         <methods>
-          <include name="isSuiteSkipped"/>
           <include name="isTestSkipped"/>
-          <include name="launch_Browser"/>
-          <include name="reportTestCaseResult"/>
-          <include name="reportSuiteResult"/>
           <include name="forgot_Password_1"/>
-          <include name="reporter"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4">
+        <methods>
+          <include name="isSuiteSkipped"/>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+          <include name="reportSuiteResult"/>
+          <include name="reporter"/>
+          <include name="reportTestCaseResult"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2">
+        <methods>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2 -->
     </classes>
   </test> <!-- ForgotPassword-1(failed) -->
+  <test name="ForgotPassword-2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1">
+        <methods>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3">
+        <methods>
+          <include name="launch_Browser"/>
+          <include name="reportTestCaseResult"/>
+          <include name="reporter"/>
+          <include name="isTestSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4">
+        <methods>
+          <include name="isSuiteSkipped"/>
+          <include name="launch_Browser"/>
+          <include name="isTestSkipped"/>
+          <include name="reportSuiteResult"/>
+          <include name="reporter"/>
+          <include name="reportTestCaseResult"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4 -->
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2">
+        <methods>
+          <include name="isTestSkipped"/>
+          <include name="forgot_Password_2"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2 -->
+    </classes>
+  </test> <!-- ForgotPassword-2(failed) -->
 </suite> <!-- Failed suite [ForgotPassword] -->

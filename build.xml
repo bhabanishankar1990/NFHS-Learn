@@ -64,7 +64,7 @@
 	
 	  <target name="sendMail" depends="makexsltreports" >
 		        <zip destfile="${basedir}/XSLTReports/output.zip" basedir="${basedir}/XSLTReports/output"/>
-		        <mail mailhost="smtp.gmail.com" mailport="465" subject=" Build Report" ssl="true" user="bhabani53@gmail.com" password="Sailabala@123">
+		        <mail mailhost="smtp.gmail.com" mailport="465" subject=" Build Report" ssl="true" user="bhabani53@gmail.com" password="sailabala123@">
 		            <from address="bhabani53@gmail.com"/>
 		            <to address="bhabani@weboniselab.com"/>
 		            <message>The build has finished. A detailed report of this build is attached</message>
