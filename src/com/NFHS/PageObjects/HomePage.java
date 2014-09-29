@@ -40,6 +40,25 @@ public class HomePage extends PageBase
     	 return new RegistrationPage(driver);
     	 
      }
+     public ForgotPasswordPage forgotPasswordLinkClick() throws Exception
+     {
+    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	 webElementProperty("signinlink").click();
+    	 Thread.sleep(2000);
+    	 webElementProperty("forgotpasswordlink").click();
+    	 return new ForgotPasswordPage(driver);
+    	 
+     }
+     public UserAccountPage signInLinkClick(String username,String password) throws Exception
+     {
+    	 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    	 webElementProperty("signinlink").click();
+    	 Thread.sleep(2000);
+    	 webElementProperty("cc_emailaddress").sendKeys(username);
+    	 webElementProperty("cc_password").sendKeys(password);
+    	 webElementProperty("cc_siginbutton").click();
+    	 return new UserAccountPage(driver);
+     }
      
     
     

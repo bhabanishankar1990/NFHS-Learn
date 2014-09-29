@@ -1,114 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="9" passed="7">
+<testng-results skipped="6" failed="0" total="7" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Registration" duration-ms="177728" started-at="2014-09-20T23:38:59Z" finished-at="2014-09-20T23:41:56Z">
+  <suite name="MyCourses Distribution" duration-ms="50080" started-at="2014-09-29T17:18:37Z" finished-at="2014-09-29T17:19:27Z">
     <groups>
     </groups>
-    <test name="Registration_Account" duration-ms="41905" started-at="2014-09-20T23:38:59Z" finished-at="2014-09-20T23:39:40Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="isTestSkipped" is-config="true" duration-ms="1141" started-at="2014-09-21T05:08:59Z" finished-at="2014-09-21T05:09:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="launch_Browser" is-config="true" duration-ms="3734" started-at="2014-09-21T05:09:02Z" finished-at="2014-09-21T05:09:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="Registration_of_New_User" duration-ms="19468" started-at="2014-09-21T05:09:06Z" data-provider="registration_Account_Setup_Test_Data" finished-at="2014-09-21T05:09:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@g]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="reporter" is-config="true" duration-ms="3547" started-at="2014-09-21T05:09:25Z" finished-at="2014-09-21T05:09:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="launch_Browser" is-config="true" duration-ms="1844" started-at="2014-09-21T05:09:29Z" finished-at="2014-09-21T05:09:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="reporter" is-config="true" duration-ms="3843" started-at="2014-09-21T05:09:31Z" finished-at="2014-09-21T05:09:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="SKIP" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="Registration_of_New_User" duration-ms="0" started-at="2014-09-21T05:09:31Z" data-provider="registration_Account_Setup_Test_Data" finished-at="2014-09-21T05:09:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
+    <test name="MyCourses Distribution-1" duration-ms="1562" started-at="2014-09-29T17:18:37Z" finished-at="2014-09-29T17:18:38Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1@f0c0d3]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:37Z" finished-at="2014-09-29T22:48:37Z">
           <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Runmode of this test data is set to NO]]>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode of this test data is set to NO
-	at com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup.Registration_of_New_User(Unknown Source)
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1.isTestSkipped(MC_Distribution1.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
@@ -116,74 +32,67 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
 	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="launch_Browser" is-config="true" duration-ms="1844" started-at="2014-09-21T05:09:34Z" finished-at="2014-09-21T05:09:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1@f0c0d3]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:38Z" finished-at="2014-09-29T22:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="reporter" is-config="true" duration-ms="3781" started-at="2014-09-21T05:09:36Z" finished-at="2014-09-21T05:09:40Z">
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1@f0c0d3]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:38Z" finished-at="2014-09-29T22:48:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="SKIP" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="Registration_of_New_User" duration-ms="0" started-at="2014-09-21T05:09:36Z" data-provider="registration_Account_Setup_Test_Data" finished-at="2014-09-21T05:09:36Z">
+        <test-method status="SKIP" signature="mc_Distribution1(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1@f0c0d3]" name="mc_Distribution1" duration-ms="0" started-at="2014-09-29T22:48:38Z" data-provider="mc_Distribution1_Test_Data" finished-at="2014-09-29T22:48:38Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[_@gmail.com]]>
+                <![CDATA[testuser1@weboapps.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[abcd@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[password]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mc_Distribution1 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1@f0c0d3]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:38Z" finished-at="2014-09-29T22:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1 -->
+    </test> <!-- MyCourses Distribution-1 -->
+    <test name="MyCourses Distribution-2" duration-ms="1031" started-at="2014-09-29T17:18:38Z" finished-at="2014-09-29T17:18:40Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2@25d2b2]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:38Z" finished-at="2014-09-29T22:48:38Z">
           <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[Runmode of this test data is set to NO]]>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.SkipException: Runmode of this test data is set to NO
-	at com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup.Registration_of_New_User(Unknown Source)
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2.isTestSkipped(MC_Distribution2.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
@@ -191,299 +100,400 @@
 	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
 	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
 	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
 	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup@e91f5d]" name="reportTestCaseResult" is-config="true" duration-ms="344" started-at="2014-09-21T05:09:40Z" finished-at="2014-09-21T05:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup -->
-    </test> <!-- Registration_Account -->
-    <test name="Registration_Account1" duration-ms="20296" started-at="2014-09-20T23:39:41Z" finished-at="2014-09-20T23:40:01Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1@a1d1f4]" name="isTestSkipped" is-config="true" duration-ms="407" started-at="2014-09-21T05:09:41Z" finished-at="2014-09-21T05:09:41Z">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1@a1d1f4]" name="launch_Browser" is-config="true" duration-ms="1828" started-at="2014-09-21T05:09:41Z" finished-at="2014-09-21T05:09:43Z">
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2@25d2b2]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:39Z" finished-at="2014-09-29T22:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="mc_Distribution2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2@25d2b2]" name="mc_Distribution2" duration-ms="15" started-at="2014-09-29T22:48:39Z" data-provider="mc_Distribution2_Test_Data" finished-at="2014-09-29T22:48:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[testuser1@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R834847875 09/29/14]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- mc_Distribution2 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2@25d2b2]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2@25d2b2]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2 -->
+    </test> <!-- MyCourses Distribution-2 -->
+    <test name="MyCourses Distribution-3" duration-ms="828" started-at="2014-09-29T17:18:40Z" finished-at="2014-09-29T17:18:40Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3@10045eb]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3.isTestSkipped(MC_Distribution3.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3@10045eb]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1@a1d1f4]" name="Registration_of_New_User" duration-ms="13937" started-at="2014-09-21T05:09:43Z" data-provider="registration_Account_Setup1_Test_Data" finished-at="2014-09-21T05:09:57Z">
+        <test-method status="SKIP" signature="mc_Distribution3(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3@10045eb]" name="mc_Distribution3" duration-ms="0" started-at="2014-09-29T22:48:40Z" data-provider="mc_Distribution3_Test_Data" finished-at="2014-09-29T22:48:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1@gmail.com]]>
+                <![CDATA[testuser1@weboapps.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user2@gmail.com]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[R834847875 09/29/14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mc_Distribution3 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3@10045eb]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3@10045eb]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3 -->
+    </test> <!-- MyCourses Distribution-3 -->
+    <test name="MyCourses Distribution-4" duration-ms="1453" started-at="2014-09-29T17:18:40Z" finished-at="2014-09-29T17:18:42Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4@9df6f1]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:40Z" finished-at="2014-09-29T22:48:40Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4.isTestSkipped(MC_Distribution4.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4@9df6f1]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:42Z" finished-at="2014-09-29T22:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="mc_Distribution4(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4@9df6f1]" name="mc_Distribution4" duration-ms="0" started-at="2014-09-29T22:48:42Z" data-provider="mc_Distribution4_Test_Data" finished-at="2014-09-29T22:48:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R834847875 09/29/14]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[Bhabani]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1@a1d1f4]" name="reporter" is-config="true" duration-ms="3344" started-at="2014-09-21T05:09:57Z" finished-at="2014-09-21T05:10:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1@a1d1f4]" name="reportTestCaseResult" is-config="true" duration-ms="312" started-at="2014-09-21T05:10:01Z" finished-at="2014-09-21T05:10:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1 -->
-    </test> <!-- Registration_Account1 -->
-    <test name="Registration_Account2" duration-ms="21656" started-at="2014-09-20T23:40:01Z" finished-at="2014-09-20T23:40:22Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2@187814]" name="isTestSkipped" is-config="true" duration-ms="359" started-at="2014-09-21T05:10:01Z" finished-at="2014-09-21T05:10:01Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2@187814]" name="launch_Browser" is-config="true" duration-ms="2406" started-at="2014-09-21T05:10:02Z" finished-at="2014-09-21T05:10:04Z">
-          <params>
-            <param index="0">
+            <param index="4">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Shankar]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2@187814]" name="Registration_of_New_User" duration-ms="14562" started-at="2014-09-21T05:10:04Z" data-provider="registration_Account_Setup2_Test_Data" finished-at="2014-09-21T05:10:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user1@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
+            <param index="5">
               <value>
                 <![CDATA[]]>
               </value>
             </param>
-            <param index="3">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2@187814]" name="reporter" is-config="true" duration-ms="3625" started-at="2014-09-21T05:10:19Z" finished-at="2014-09-21T05:10:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2@187814]" name="reportTestCaseResult" is-config="true" duration-ms="282" started-at="2014-09-21T05:10:22Z" finished-at="2014-09-21T05:10:22Z">
+        </test-method> <!-- mc_Distribution4 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4@9df6f1]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:42Z" finished-at="2014-09-29T22:48:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2 -->
-    </test> <!-- Registration_Account2 -->
-    <test name="Registration_Account3" duration-ms="19984" started-at="2014-09-20T23:40:23Z" finished-at="2014-09-20T23:40:42Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3@8c1dd9]" name="isTestSkipped" is-config="true" duration-ms="484" started-at="2014-09-21T05:10:23Z" finished-at="2014-09-21T05:10:23Z">
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4@9df6f1]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:42Z" finished-at="2014-09-29T22:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4 -->
+    </test> <!-- MyCourses Distribution-4 -->
+    <test name="MyCourses Distribution-5" duration-ms="1156" started-at="2014-09-29T17:18:42Z" finished-at="2014-09-29T17:18:43Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5@b8deef]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:42Z" finished-at="2014-09-29T22:48:42Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5.isTestSkipped(MC_Distribution5.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3@8c1dd9]" name="launch_Browser" is-config="true" duration-ms="1907" started-at="2014-09-21T05:10:23Z" finished-at="2014-09-21T05:10:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5@b8deef]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:43Z" finished-at="2014-09-29T22:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3@8c1dd9]" name="Registration_of_New_User" duration-ms="13624" started-at="2014-09-21T05:10:25Z" data-provider="registration_Account_Setup3_Test_Data" finished-at="2014-09-21T05:10:39Z">
+        <test-method status="SKIP" signature="mc_Distribution5(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5@b8deef]" name="mc_Distribution5" duration-ms="15" started-at="2014-09-29T22:48:43Z" data-provider="mc_Distribution5_Test_Data" finished-at="2014-09-29T22:48:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[USER1@gmail.com]]>
+                <![CDATA[testuser1@weboapps.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user1@gmail.com]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[]]>
+                <![CDATA[R834847875 09/29/14]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[]]>
+                <![CDATA[Bhabani]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abcdefghi]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3@8c1dd9]" name="reporter" is-config="true" duration-ms="3328" started-at="2014-09-21T05:10:39Z" finished-at="2014-09-21T05:10:42Z">
+        </test-method> <!-- mc_Distribution5 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5@b8deef]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:43Z" finished-at="2014-09-29T22:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3@8c1dd9]" name="reportTestCaseResult" is-config="true" duration-ms="266" started-at="2014-09-21T05:10:42Z" finished-at="2014-09-21T05:10:42Z">
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5@b8deef]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:43Z" finished-at="2014-09-29T22:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3 -->
-    </test> <!-- Registration_Account3 -->
-    <test name="Registration_Account4" duration-ms="21078" started-at="2014-09-20T23:40:43Z" finished-at="2014-09-20T23:41:04Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4@1865b28]" name="isTestSkipped" is-config="true" duration-ms="328" started-at="2014-09-21T05:10:43Z" finished-at="2014-09-21T05:10:43Z">
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5 -->
+    </test> <!-- MyCourses Distribution-5 -->
+    <test name="MyCourses Distribution-6" duration-ms="969" started-at="2014-09-29T17:18:43Z" finished-at="2014-09-29T17:18:44Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6@8e32e7]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:43Z" finished-at="2014-09-29T22:48:43Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6.isTestSkipped(MC_Distribution6.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4@1865b28]" name="launch_Browser" is-config="true" duration-ms="1766" started-at="2014-09-21T05:10:43Z" finished-at="2014-09-21T05:10:45Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6@8e32e7]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:44Z" finished-at="2014-09-29T22:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4@1865b28]" name="Registration_of_New_User" duration-ms="14546" started-at="2014-09-21T05:10:45Z" data-provider="registration_Account_Setup4_Test_Data" finished-at="2014-09-21T05:11:00Z">
+        <test-method status="SKIP" signature="mc_Distribution6(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6@8e32e7]" name="mc_Distribution6" duration-ms="0" started-at="2014-09-29T22:48:44Z" data-provider="mc_Distribution6_Test_Data" finished-at="2014-09-29T22:48:44Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user1@gmail.com]]>
+                <![CDATA[testuser1@weboapps.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user1@gmail.com]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[passwd]]>
+                <![CDATA[R834847875 09/29/14]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[passwd]]>
+                <![CDATA[Bhabani]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shankar1@yopmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4@1865b28]" name="reporter" is-config="true" duration-ms="3656" started-at="2014-09-21T05:11:00Z" finished-at="2014-09-21T05:11:03Z">
+        </test-method> <!-- mc_Distribution6 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6@8e32e7]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:44Z" finished-at="2014-09-29T22:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4@1865b28]" name="reportTestCaseResult" is-config="true" duration-ms="266" started-at="2014-09-21T05:11:03Z" finished-at="2014-09-21T05:11:04Z">
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6@8e32e7]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:48:44Z" finished-at="2014-09-29T22:48:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4 -->
-    </test> <!-- Registration_Account4 -->
-    <test name="Registration_Account5" duration-ms="22234" started-at="2014-09-20T23:41:04Z" finished-at="2014-09-20T23:41:26Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5@1ebd75b]" name="isTestSkipped" is-config="true" duration-ms="375" started-at="2014-09-21T05:11:04Z" finished-at="2014-09-21T05:11:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5@1ebd75b]" name="launch_Browser" is-config="true" duration-ms="2046" started-at="2014-09-21T05:11:04Z" finished-at="2014-09-21T05:11:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5@1ebd75b]" name="Registration_of_New_User" duration-ms="15437" started-at="2014-09-21T05:11:06Z" data-provider="registration_Account_Setup5_Test_Data" finished-at="2014-09-21T05:11:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[user1@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[user1@gmail.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[passwd]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[passwd]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5@1ebd75b]" name="reporter" is-config="true" duration-ms="3703" started-at="2014-09-21T05:11:22Z" finished-at="2014-09-21T05:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5@1ebd75b]" name="reportTestCaseResult" is-config="true" duration-ms="266" started-at="2014-09-21T05:11:26Z" finished-at="2014-09-21T05:11:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5 -->
-    </test> <!-- Registration_Account5 -->
-    <test name="Registration_Account6" duration-ms="30437" started-at="2014-09-20T23:41:26Z" finished-at="2014-09-20T23:41:56Z">
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
-        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="isSuiteSkipped" is-config="true" duration-ms="3515" started-at="2014-09-21T05:08:55Z" finished-at="2014-09-21T05:08:59Z">
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6 -->
+    </test> <!-- MyCourses Distribution-6 -->
+    <test name="MyCourses Distribution-7" duration-ms="42861" started-at="2014-09-29T17:18:44Z" finished-at="2014-09-29T17:19:27Z">
+      <class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7">
+        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="isSuiteSkipped" is-config="true" duration-ms="2453" started-at="2014-09-29T22:48:34Z" finished-at="2014-09-29T22:48:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSuiteSkipped -->
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="isTestSkipped" is-config="true" duration-ms="375" started-at="2014-09-21T05:11:26Z" finished-at="2014-09-21T05:11:26Z">
+        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="isTestSkipped" is-config="true" duration-ms="500" started-at="2014-09-29T22:48:44Z" finished-at="2014-09-29T22:48:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="launch_Browser" is-config="true" duration-ms="1671" started-at="2014-09-21T05:11:27Z" finished-at="2014-09-21T05:11:28Z">
+        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="launch_Browser" is-config="true" duration-ms="2719" started-at="2014-09-29T22:48:46Z" finished-at="2014-09-29T22:48:48Z">
           <params>
             <param index="0">
               <value>
@@ -494,49 +504,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="Registration_of_New_User(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="Registration_of_New_User" duration-ms="23562" started-at="2014-09-21T05:11:28Z" data-provider="registration_Account_Setup6_Test_Data" finished-at="2014-09-21T05:11:52Z">
+        <test-method status="PASS" signature="mc_Distribution7(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="mc_Distribution7" duration-ms="36126" started-at="2014-09-29T22:48:48Z" data-provider="mc_Distribution7_Test_Data" finished-at="2014-09-29T22:49:24Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[user4@gmail.com]]>
+                <![CDATA[testuser1@weboapps.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[user4@gmail.com]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[R834847875 09/29/14]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[password]]>
+                <![CDATA[Bhabani]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[shankar1@yopmail.com]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Registration_of_New_User -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="reporter" is-config="true" duration-ms="3922" started-at="2014-09-21T05:11:52Z" finished-at="2014-09-21T05:11:56Z">
+        </test-method> <!-- mc_Distribution7 -->
+        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="reporter" is-config="true" duration-ms="2094" started-at="2014-09-29T22:49:24Z" finished-at="2014-09-29T22:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="reportTestCaseResult" is-config="true" duration-ms="453" started-at="2014-09-21T05:11:56Z" finished-at="2014-09-21T05:11:56Z">
+        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="reportTestCaseResult" is-config="true" duration-ms="422" started-at="2014-09-29T22:49:27Z" finished-at="2014-09-29T22:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6@12be1bd]" name="reportSuiteResult" is-config="true" duration-ms="0" started-at="2014-09-21T05:11:56Z" finished-at="2014-09-21T05:11:56Z">
+        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7@11e1e67]" name="reportSuiteResult" is-config="true" duration-ms="0" started-at="2014-09-29T22:49:27Z" finished-at="2014-09-29T22:49:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSuiteResult -->
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
-    </test> <!-- Registration_Account6 -->
-  </suite> <!-- Registration -->
-  <suite name="Core-Suite" duration-ms="0" started-at="2014-09-20T23:41:57Z" finished-at="2014-09-20T23:41:57Z">
-    <groups>
-    </groups>
-  </suite> <!-- Core-Suite -->
+      </class> <!-- com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7 -->
+    </test> <!-- MyCourses Distribution-7 -->
+  </suite> <!-- MyCourses Distribution -->
 </testng-results>

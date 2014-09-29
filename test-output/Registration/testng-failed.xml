@@ -8,65 +8,102 @@
   <test name="Registration_Account(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
       <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup">
         <methods>
-          <include name="reportTestCaseResult"/>
-          <include name="launch_Browser"/>
-          <include name="isTestSkipped"/>
-          <include name="reporter"/>
-          <include name="Registration_of_New_User" invocation-numbers="1 2"/>
+          <include name="Registration_of_New_User"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup -->
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3">
+    </classes>
+  </test> <!-- Registration_Account(failed) -->
+  <test name="Registration_Account1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1">
         <methods>
-          <include name="launch_Browser"/>
-          <include name="isTestSkipped"/>
-          <include name="reporter"/>
-          <include name="reportTestCaseResult"/>
+          <include name="Registration_of_New_User"/>
         </methods>
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3 -->
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
+    </classes>
+  </test> <!-- Registration_Account1(failed) -->
+  <test name="Registration_Account2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
       <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2">
         <methods>
-          <include name="launch_Browser"/>
-          <include name="reportTestCaseResult"/>
-          <include name="reporter"/>
-          <include name="isTestSkipped"/>
+          <include name="Registration_of_New_User"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup2 -->
       <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
         <methods>
           <include name="isSuiteSkipped"/>
-          <include name="isTestSkipped"/>
-          <include name="reportTestCaseResult"/>
-          <include name="launch_Browser"/>
-          <include name="reportSuiteResult"/>
-          <include name="reporter"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
-      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1">
+    </classes>
+  </test> <!-- Registration_Account2(failed) -->
+  <test name="Registration_Account3(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3">
         <methods>
-          <include name="isTestSkipped"/>
-          <include name="launch_Browser"/>
-          <include name="reportTestCaseResult"/>
-          <include name="reporter"/>
+          <include name="Registration_of_New_User"/>
         </methods>
-      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup1 -->
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup3 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
+    </classes>
+  </test> <!-- Registration_Account3(failed) -->
+  <test name="Registration_Account4(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
       <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4">
         <methods>
-          <include name="reportTestCaseResult"/>
-          <include name="launch_Browser"/>
-          <include name="isTestSkipped"/>
-          <include name="reporter"/>
+          <include name="Registration_of_New_User"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup4 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
+    </classes>
+  </test> <!-- Registration_Account4(failed) -->
+  <test name="Registration_Account5(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
       <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5">
         <methods>
-          <include name="reporter"/>
-          <include name="reportTestCaseResult"/>
-          <include name="launch_Browser"/>
-          <include name="isTestSkipped"/>
+          <include name="Registration_of_New_User"/>
         </methods>
       </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup5 -->
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
     </classes>
-  </test> <!-- Registration_Account(failed) -->
+  </test> <!-- Registration_Account5(failed) -->
+  <test name="Registration_Account6(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6">
+        <methods>
+          <include name="isSuiteSkipped"/>
+          <include name="Registration_of_New_User"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.RegistrationSuite.Registration_Account_Setup6 -->
+    </classes>
+  </test> <!-- Registration_Account6(failed) -->
 </suite> <!-- Failed suite [Registration] -->

@@ -27,7 +27,6 @@ public class TestUtil
 		int rownum=xls.getRowNumByColName(path, workbookname, sheetname, testcasename);
 		int colnum=xls.getColNumByColName(path, workbookname, sheetname,"Runmode");
 		String data=xls.getDataOfParticularCell(path, workbookname, sheetname, colnum, rownum);
-		//System.out.println(data);
 		if(data.equalsIgnoreCase("yes"))
 			return true;
 		else
