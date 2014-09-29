@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CompleteCourse" verbose="3">	
+	<test name="CompleteCourse-1">
+	     <parameter name="browser" value="CHROME"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.CompleteCourse.Complete_Course_1"/>
+			</classes>
+	</test>
+	</suite>

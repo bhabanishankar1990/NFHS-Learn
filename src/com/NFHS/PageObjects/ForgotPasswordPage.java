@@ -51,5 +51,22 @@ public class ForgotPasswordPage extends PageBase
 		else 
 		return false;
 	}
+	public String emailAddressValid(String emailaddress) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		webElementProperty("Forgot_emailaddress").sendKeys(emailaddress);
+		webElementProperty("Forgot_confirmbutton").click();
+		return webElementProperty("forgot_successmessage").getText();
+	}
+	public void loginGmail(String username,String gpassword) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		webElementProperty("gmail_email").sendKeys(username);
+		webElementProperty("gmail_password").sendKeys(gpassword);
+		webElementProperty("gmail_submit").click();
+		webElementProperty("firstemail").click();
+		webElementProperty("change_my_password_link").click();
+		
+	}
 
 }

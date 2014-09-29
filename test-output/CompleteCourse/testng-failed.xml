@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [CompleteCourse]">
+  <parameter name="browser" value="CHROME"/>
+  <test name="CompleteCourse-1(failed)">
+    <parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="com.NFHS.TestSuites.CompleteCourse.Complete_Course_1">
+        <methods>
+          <include name="isTestSkipped"/>
+          <include name="complete_Course_1" invocation-numbers="0"/>
+          <include name="reporter"/>
+          <include name="isSuiteSkipped"/>
+          <include name="reportTestCaseResult"/>
+          <include name="launch_Browser"/>
+          <include name="reportSuiteResult"/>
+        </methods>
+      </class> <!-- com.NFHS.TestSuites.CompleteCourse.Complete_Course_1 -->
+    </classes>
+  </test> <!-- CompleteCourse-1(failed) -->
+</suite> <!-- Failed suite [CompleteCourse] -->

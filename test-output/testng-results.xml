@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" total="5" passed="3">
+<testng-results skipped="13" failed="0" total="14" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ForgotPassword" duration-ms="66623" started-at="2014-09-22T10:21:31Z" finished-at="2014-09-22T10:22:38Z">
+  <suite name="ForgotPassword" duration-ms="59236" started-at="2014-09-29T12:00:00Z" finished-at="2014-09-29T12:00:59Z">
     <groups>
     </groups>
-    <test name="ForgotPassword-1" duration-ms="375" started-at="2014-09-22T10:21:31Z" finished-at="2014-09-22T10:21:32Z">
+    <test name="ForgotPassword-1" duration-ms="609" started-at="2014-09-29T12:00:00Z" finished-at="2014-09-29T12:00:01Z">
       <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1">
-        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1551d7f]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:31Z" finished-at="2014-09-22T15:51:31Z">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1a52fdf]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:00Z" finished-at="2014-09-29T17:30:00Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[--Runmode is set to NO for given testcase--]]>
@@ -43,34 +43,34 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1551d7f]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="SKIP" signature="forgot_Password_1()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1551d7f]" name="forgot_Password_1" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgot_Password_1 -->
-        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1551d7f]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1a52fdf]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1551d7f]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="forgot_Password_1()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1a52fdf]" name="forgot_Password_1" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_1 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1a52fdf]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1@1a52fdf]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
       </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password1 -->
     </test> <!-- ForgotPassword-1 -->
-    <test name="ForgotPassword-2" duration-ms="219" started-at="2014-09-22T10:21:32Z" finished-at="2014-09-22T10:21:32Z">
+    <test name="ForgotPassword-2" duration-ms="360" started-at="2014-09-29T12:00:01Z" finished-at="2014-09-29T12:00:01Z">
       <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2">
-        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@4e280c]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@e6ff0d]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[--Runmode is set to NO for given testcase--]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
-	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2.isTestSkipped(Forgot_Password2.java:41)
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2.isTestSkipped(Forgot_Password2.java:42)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -99,42 +99,71 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@4e280c]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@e6ff0d]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@e6ff0d]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@4e280c]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@4e280c]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="SKIP" signature="forgot_Password_2()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@4e280c]" name="forgot_Password_2" duration-ms="0" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="forgot_Password_2()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@e6ff0d]" name="forgot_Password_2" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgot_Password_2 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2@e6ff0d]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
       </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password2 -->
     </test> <!-- ForgotPassword-2 -->
-    <test name="ForgotPassword-3" duration-ms="43748" started-at="2014-09-22T10:21:32Z" finished-at="2014-09-22T10:22:16Z">
+    <test name="ForgotPassword-3" duration-ms="829" started-at="2014-09-29T12:00:01Z" finished-at="2014-09-29T12:00:02Z">
       <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3">
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="isTestSkipped" is-config="true" duration-ms="359" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:32Z">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:01Z" finished-at="2014-09-29T17:30:01Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3.isTestSkipped(Forgot_Password3.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="launch_Browser" is-config="true" duration-ms="2094" started-at="2014-09-22T15:51:32Z" finished-at="2014-09-22T15:51:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="forgot_Password_3" duration-ms="15671" started-at="2014-09-22T15:51:35Z" data-provider="forgot_Password3_Test_Data" finished-at="2014-09-22T15:51:50Z">
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="forgot_Password_3" duration-ms="0" started-at="2014-09-29T17:30:02Z" data-provider="forgot_Password3_Test_Data" finished-at="2014-09-29T17:30:02Z">
           <params>
             <param index="0">
               <value>
@@ -145,22 +174,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgot_Password_3 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="reporter" is-config="true" duration-ms="3172" started-at="2014-09-22T15:51:50Z" finished-at="2014-09-22T15:51:53Z">
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="launch_Browser" is-config="true" duration-ms="1547" started-at="2014-09-22T15:51:53Z" finished-at="2014-09-22T15:51:55Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="forgot_Password_3" duration-ms="17249" started-at="2014-09-22T15:51:55Z" data-provider="forgot_Password3_Test_Data" finished-at="2014-09-22T15:52:12Z">
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="forgot_Password_3(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@126f75b]" name="forgot_Password_3" duration-ms="0" started-at="2014-09-29T17:30:02Z" data-provider="forgot_Password3_Test_Data" finished-at="2014-09-29T17:30:02Z">
           <params>
             <param index="0">
               <value>
@@ -171,38 +197,47 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgot_Password_3 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="reporter" is-config="true" duration-ms="3187" started-at="2014-09-22T15:52:12Z" finished-at="2014-09-22T15:52:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3@12be1bd]" name="reportTestCaseResult" is-config="true" duration-ms="219" started-at="2014-09-22T15:52:15Z" finished-at="2014-09-22T15:52:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportTestCaseResult -->
       </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password3 -->
     </test> <!-- ForgotPassword-3 -->
-    <test name="ForgotPassword-4" duration-ms="22218" started-at="2014-09-22T10:22:16Z" finished-at="2014-09-22T10:22:38Z">
+    <test name="ForgotPassword-4" duration-ms="703" started-at="2014-09-29T12:00:02Z" finished-at="2014-09-29T12:00:03Z">
       <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4">
-        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="isSuiteSkipped" is-config="true" duration-ms="1937" started-at="2014-09-22T15:51:29Z" finished-at="2014-09-22T15:51:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isSuiteSkipped -->
-        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="isTestSkipped" is-config="true" duration-ms="297" started-at="2014-09-22T15:52:16Z" finished-at="2014-09-22T15:52:16Z">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@1d332b]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:02Z" finished-at="2014-09-29T17:30:02Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4.isTestSkipped(Forgot_Password4.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isTestSkipped -->
-        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="launch_Browser" is-config="true" duration-ms="1531" started-at="2014-09-22T15:52:16Z" finished-at="2014-09-22T15:52:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch_Browser -->
-        <test-method status="PASS" signature="forgot_Password_4(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="forgot_Password_4" duration-ms="17016" started-at="2014-09-22T15:52:18Z" data-provider="forgot_Password4_Test_Data" finished-at="2014-09-22T15:52:35Z">
+        <test-method status="SKIP" signature="forgot_Password_4(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@1d332b]" name="forgot_Password_4" duration-ms="15" started-at="2014-09-29T17:30:03Z" data-provider="forgot_Password4_Test_Data" finished-at="2014-09-29T17:30:03Z">
           <params>
             <param index="0">
               <value>
@@ -213,19 +248,674 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgot_Password_4 -->
-        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="reporter" is-config="true" duration-ms="3062" started-at="2014-09-22T15:52:35Z" finished-at="2014-09-22T15:52:38Z">
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@1d332b]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reporter -->
-        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="reportTestCaseResult" is-config="true" duration-ms="172" started-at="2014-09-22T15:52:38Z" finished-at="2014-09-22T15:52:38Z">
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@1d332b]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportTestCaseResult -->
-        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@139b78e]" name="reportSuiteResult" is-config="true" duration-ms="0" started-at="2014-09-22T15:52:38Z" finished-at="2014-09-22T15:52:38Z">
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4@1d332b]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4 -->
+    </test> <!-- ForgotPassword-4 -->
+    <test name="ForgotPassword-5" duration-ms="656" started-at="2014-09-29T12:00:03Z" finished-at="2014-09-29T12:00:03Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@b76fa]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5.isTestSkipped(Forgot_Password5.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@b76fa]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="forgot_Password_5(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@b76fa]" name="forgot_Password_5" duration-ms="0" started-at="2014-09-29T17:30:03Z" data-provider="forgot_Password5_Test_Data" finished-at="2014-09-29T17:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_5 -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@b76fa]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5@b76fa]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:03Z" finished-at="2014-09-29T17:30:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password5 -->
+    </test> <!-- ForgotPassword-5 -->
+    <test name="ForgotPassword-7" duration-ms="828" started-at="2014-09-29T12:00:03Z" finished-at="2014-09-29T12:00:04Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5e176f]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:04Z" finished-at="2014-09-29T17:30:04Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7.isTestSkipped(Forgot_Password7.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5e176f]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:04Z" finished-at="2014-09-29T17:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5e176f]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:04Z" finished-at="2014-09-29T17:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_7(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5e176f]" name="forgot_Password_7" duration-ms="0" started-at="2014-09-29T17:30:04Z" data-provider="forgot_Password7_Test_Data" finished-at="2014-09-29T17:30:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_7 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7@5e176f]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:04Z" finished-at="2014-09-29T17:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password7 -->
+    </test> <!-- ForgotPassword-7 -->
+    <test name="ForgotPassword-8" duration-ms="594" started-at="2014-09-29T12:00:04Z" finished-at="2014-09-29T12:00:05Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@51052d]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:04Z" finished-at="2014-09-29T17:30:04Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8.isTestSkipped(Forgot_Password8.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@51052d]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:05Z" finished-at="2014-09-29T17:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_8(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@51052d]" name="forgot_Password_8" duration-ms="0" started-at="2014-09-29T17:30:05Z" data-provider="forgot_Password8_Test_Data" finished-at="2014-09-29T17:30:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_8 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@51052d]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:05Z" finished-at="2014-09-29T17:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8@51052d]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:05Z" finished-at="2014-09-29T17:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password8 -->
+    </test> <!-- ForgotPassword-8 -->
+    <test name="ForgotPassword-9" duration-ms="719" started-at="2014-09-29T12:00:05Z" finished-at="2014-09-29T12:00:06Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@84da23]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:05Z" finished-at="2014-09-29T17:30:05Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9.isTestSkipped(Forgot_Password9.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="forgot_Password_9(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@84da23]" name="forgot_Password_9" duration-ms="0" started-at="2014-09-29T17:30:06Z" data-provider="forgot_Password9_Test_Data" finished-at="2014-09-29T17:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_9 -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@84da23]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@84da23]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9@84da23]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password9 -->
+    </test> <!-- ForgotPassword-9 -->
+    <test name="ForgotPassword-10" duration-ms="656" started-at="2014-09-29T12:00:06Z" finished-at="2014-09-29T12:00:06Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@cb6009]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10.isTestSkipped(Forgot_Password10.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@cb6009]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_10(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@cb6009]" name="forgot_Password_10" duration-ms="0" started-at="2014-09-29T17:30:06Z" data-provider="forgot_Password10_Test_Data" finished-at="2014-09-29T17:30:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_10 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@cb6009]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10@cb6009]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password10 -->
+    </test> <!-- ForgotPassword-10 -->
+    <test name="ForgotPassword-11" duration-ms="734" started-at="2014-09-29T12:00:06Z" finished-at="2014-09-29T12:00:07Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@c9131c]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:06Z" finished-at="2014-09-29T17:30:06Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11.isTestSkipped(Forgot_Password11.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@c9131c]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:07Z" finished-at="2014-09-29T17:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@c9131c]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:07Z" finished-at="2014-09-29T17:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_11(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@c9131c]" name="forgot_Password_11" duration-ms="0" started-at="2014-09-29T17:30:07Z" data-provider="forgot_Password11_Test_Data" finished-at="2014-09-29T17:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_11 -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11@c9131c]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:07Z" finished-at="2014-09-29T17:30:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password11 -->
+    </test> <!-- ForgotPassword-11 -->
+    <test name="ForgotPassword-13" duration-ms="719" started-at="2014-09-29T12:00:07Z" finished-at="2014-09-29T12:00:08Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@1835282]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:07Z" finished-at="2014-09-29T17:30:07Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13.isTestSkipped(Forgot_Password13.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@1835282]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:08Z" finished-at="2014-09-29T17:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@1835282]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:08Z" finished-at="2014-09-29T17:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="SKIP" signature="forgot_Password_13(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@1835282]" name="forgot_Password_13" duration-ms="0" started-at="2014-09-29T17:30:08Z" data-provider="forgot_Password13_Test_Data" finished-at="2014-09-29T17:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_13 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13@1835282]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:08Z" finished-at="2014-09-29T17:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password13 -->
+    </test> <!-- ForgotPassword-13 -->
+    <test name="ForgotPassword-14" duration-ms="766" started-at="2014-09-29T12:00:08Z" finished-at="2014-09-29T12:00:09Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14">
+        <test-method status="SKIP" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@e32802]" name="isTestSkipped" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:08Z" finished-at="2014-09-29T17:30:08Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[--Runmode is set to NO for given testcase--]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: --Runmode is set to NO for given testcase--
+	at com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14.isTestSkipped(Forgot_Password14.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="SKIP" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@e32802]" name="launch_Browser" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:09Z" finished-at="2014-09-29T17:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="SKIP" signature="forgot_Password_14(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@e32802]" name="forgot_Password_14" duration-ms="0" started-at="2014-09-29T17:30:09Z" data-provider="forgot_Password14_Test_Data" finished-at="2014-09-29T17:30:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[weboqa6186]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_14 -->
+        <test-method status="SKIP" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@e32802]" name="reportTestCaseResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:09Z" finished-at="2014-09-29T17:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="SKIP" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14@e32802]" name="reporter" is-config="true" duration-ms="0" started-at="2014-09-29T17:30:09Z" finished-at="2014-09-29T17:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password14 -->
+    </test> <!-- ForgotPassword-14 -->
+    <test name="ForgotPassword-15" duration-ms="50877" started-at="2014-09-29T12:00:09Z" finished-at="2014-09-29T12:00:59Z">
+      <class name="com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15">
+        <test-method status="PASS" signature="isSuiteSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="isSuiteSkipped" is-config="true" duration-ms="1875" started-at="2014-09-29T17:29:58Z" finished-at="2014-09-29T17:30:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSuiteSkipped -->
+        <test-method status="PASS" signature="isTestSkipped()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="isTestSkipped" is-config="true" duration-ms="469" started-at="2014-09-29T17:30:09Z" finished-at="2014-09-29T17:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkipped -->
+        <test-method status="PASS" signature="launch_Browser(java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="launch_Browser" is-config="true" duration-ms="2906" started-at="2014-09-29T17:30:09Z" finished-at="2014-09-29T17:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Browser -->
+        <test-method status="PASS" signature="forgot_Password_15(java.lang.String, java.lang.String)[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="forgot_Password_15" duration-ms="43455" started-at="2014-09-29T17:30:12Z" data-provider="forgot_Password15_Test_Data" finished-at="2014-09-29T17:30:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[email@weboapps.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgot_Password_15 -->
+        <test-method status="PASS" signature="reporter()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="reporter" is-config="true" duration-ms="3453" started-at="2014-09-29T17:30:56Z" finished-at="2014-09-29T17:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporter -->
+        <test-method status="PASS" signature="reportTestCaseResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="reportTestCaseResult" is-config="true" duration-ms="328" started-at="2014-09-29T17:30:59Z" finished-at="2014-09-29T17:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTestCaseResult -->
+        <test-method status="PASS" signature="reportSuiteResult()[pri:0, instance:com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15@497934]" name="reportSuiteResult" is-config="true" duration-ms="0" started-at="2014-09-29T17:31:00Z" finished-at="2014-09-29T17:31:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportSuiteResult -->
-      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password4 -->
-    </test> <!-- ForgotPassword-4 -->
+      </class> <!-- com.NFHS.TestSuites.ForgotPasswordSuite.Forgot_Password15 -->
+    </test> <!-- ForgotPassword-15 -->
   </suite> <!-- ForgotPassword -->
 </testng-results>
