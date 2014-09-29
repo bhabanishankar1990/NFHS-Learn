@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyCourses Distribution" verbose="3">	
+	<test name="MyCourses Distribution-1">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution1"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-2">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution2"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-3">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution3"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-4">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution4"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-5">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution5"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-6">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution6"/>
+			</classes>
+	</test>
+	
+	<test name="MyCourses Distribution-7">
+	     <parameter name="browser" value="chrome"/>
+	        <classes>
+				<class name="com.NFHS.TestSuites.MyCoursesDistribution.MC_Distribution7"/>
+			</classes>
+	</test>
+</suite>

@@ -8,6 +8,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.NFHS.base.PageBase;
@@ -37,6 +38,77 @@ public class UserAccountPage extends PageBase
 		return new HomePage(driver);
 	}
 	
+	public String  myCourses_Distribution_Licenses_Display() throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("mycourses").click();
+		Thread.sleep(1000);
+		webElementProperty("distribution_link").click();
+		return webElementProperty("distribution_licenses_text").getText();
+	}
+	public boolean check_Available_Courses(String invoicenumber) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("mycourses").click();
+		Thread.sleep(1000);
+		webElementProperty("distribution_link").click();
+		Thread.sleep(1000);
+		webElementProperty("avaliable_link").click();
+		Select invoice=new Select(webElementProperty("select_dropdown"));
+		invoice.selectByVisibleText(invoicenumber);
+		return webElementProperty("available_box").isDisplayed();
+	}
+	public String send_Available_Course_Blank(String invoicenumber) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("mycourses").click();
+		Thread.sleep(1000);
+		webElementProperty("distribution_link").click();
+		Thread.sleep(1000);
+		webElementProperty("avaliable_link").click();
+		Select invoice=new Select(webElementProperty("select_dropdown"));
+		invoice.selectByVisibleText(invoicenumber);
+		webElementProperty("send_button").click();
+		return webElementProperty("invalid_mail_address_error").getText();
+		
+	}
+	public String send_Available_Course_Firstname_Lastname(String invoicenumber,String firstname,String lastname,String email) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("mycourses").click();
+		Thread.sleep(1000);
+		webElementProperty("distribution_link").click();
+		Thread.sleep(1000);
+		webElementProperty("avaliable_link").click();
+		Select invoice=new Select(webElementProperty("select_dropdown"));
+		invoice.selectByVisibleText(invoicenumber);
+		webElementProperty("first_name_box").sendKeys(firstname);
+		webElementProperty("last_name_box").sendKeys(lastname);
+		webElementProperty("email_box").sendKeys(email);
+		webElementProperty("send_button").click();
+		Thread.sleep(1000);
+		return webElementProperty("invalid_mail_address_error").getText();
+	}
+	public String send_Available_Course_Pending_State(String invoicenumber,String firstname,String lastname,String email) throws Exception
+	{
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		webElementProperty("mycourses").click();
+		Thread.sleep(1000);
+		webElementProperty("distribution_link").click();
+		Thread.sleep(1000);
+		webElementProperty("avaliable_link").click();
+		Select invoice=new Select(webElementProperty("select_dropdown"));
+		invoice.selectByVisibleText(invoicenumber);
+		webElementProperty("first_name_box").sendKeys(firstname);
+		webElementProperty("last_name_box").sendKeys(lastname);
+		webElementProperty("email_box").sendKeys(email);
+		webElementProperty("send_button").click();
+		Thread.sleep(1000);
+		return webElementProperty("user_already").getText();
+		
+		
+		
+	}
 	public void oneEnabledTwoDisabled() throws Exception
 	{
 		
